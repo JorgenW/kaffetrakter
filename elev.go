@@ -115,6 +115,3 @@ func elev_set_stop_lamp(value int){
 func elev_set_door_open_lamp(value int){
 	C.elev_set_door_open_lamp(int value);
 }
-
-
-#endif // #ifndef __INCLUDE_DRIVER_H__
